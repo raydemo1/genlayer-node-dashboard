@@ -2,8 +2,7 @@
 
 This Grafana dashboard provides deep insights into your node's consensus participation, transaction throughput (TPS), synchronization status, and system resource usage (Go runtime, CPU, RAM). It is designed to help node operators maintain high uptime and troubleshoot issues quickly.
 
-![Dashboard Preview](https://via.placeholder.com/1200x600?text=Dashboard+Preview+Image)
-*(Note: Replace the link above with an actual screenshot of your dashboard)*
+![Dashboard Preview](imgs/img1.png)
 
 ## ✨ Features
 
