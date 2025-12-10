@@ -1,0 +1,20 @@
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+
+remote_write:
+  - url: yoururl
+    basic_auth:
+      username: username
+      password: password
+
+scrape_configs:
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: "genlayer-validator"
+    static_configs:
+      - targets: ["Your IP Address:9153"]
+        labels:
+          instance: "My-Validator"

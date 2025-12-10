@@ -16,7 +16,9 @@ This Grafana dashboard provides deep insights into your GenLayer validator node'
 
 * **📈 Historical Trend Analysis**: New charts for Hour/Day/Week analysis to identify memory leaks, daily traffic patterns, and block growth.
 
-  ![](imgs\img1.png)
+## 📸 Dashboard Preview
+
+  ![img](imgs/img1.png)
 
 -----
 
